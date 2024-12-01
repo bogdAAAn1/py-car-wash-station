@@ -34,7 +34,7 @@ class CarWashStation:
 
         return round(total_income, 1)
 
-    def calculate_washing_price(self, car: Car) -> int:
+    def calculate_washing_price(self, car: Car) -> float:
         if car.clean_mark >= self.clean_power:
             return 0.0
 
